@@ -6,7 +6,7 @@
     <title>Welcome page</title>
     <style>
         a {
-            font family: Arial, sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
             padding: 0px;
@@ -26,9 +26,31 @@
             font-size: 1.75em;
             text-transform: capitalize;
         }
+        .toplinks {
+            background-color: black;
+            overflow: hidden;
+
+        }
+        .toplinks {
+            float: left;
+            color: tomato;
+            font-size: 17px;
+            text-decoration: none;
+            margin: 10px;
+            padding: 14px 16px;
+            display: block;
+            text-align: center;
+            
+        }
+        .toplinks a :hover {
+            color: blue;
+            background-color: tomato;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <div class="toplinks"></div>
     <a href="Contacts.html">Contacts</a>
     <a href="Projects.html">Projects</a>
     <a href="Services.html">Services</a>
