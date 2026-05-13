@@ -7,47 +7,90 @@
     <link rel="stylesheet" href="./index.html">
     <style>
         p {
-            color: blue;
+            color: red;
             font-style: italic;
-            background-color: aqua;
+            background-color: lightpink;
             padding: 20px;
         }
         .highlight {
             text-decoration: underline;
             font-size: 20px;
         }
+        .highlight:hover {
+            color: red;
+            background-color: yellow;
+        }
+        h1 {
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sidebar {
+            width: 200px;
+            height: 300px;
+            background-color: hotpink;
+            padding: 20px;
+            float: left;
+        }
+        .content {
+            margin-left: 300px;
+            padding: 20px;
+            width: 600px;
+            height: 300px;
+        }
+        .footer {
+            clear: both;
+            background-color: hotpink;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .toplinks {
+            background-color: hotpink;
+            overflow: hidden;
+            height: 50px;
+        
+        }
+        .toplinks a :hover {
+            color: red;
+            background-color: tomato;
+            text-decoration: none;
+        }
+        .banner {
+            background-color:lightpink;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 24px;
+        }
 
         </style>
 </head>
 <body>
-    <div class="toplinks"></div>
-    <a href="Contacts.html">Contacts</a>
-    <a href="Projects.html">Projects</a>
-    <a href="./">Go back to Home</a>
-    <a href="About.html">Services</a>
+    <div class="toplinks">
+        <a href="index.html">Go back to home page</a>
+    </div>
     <div>
         <div class="banner">
             banner
         </div>
         <div>
-            <div class="row">
-                <div class="col">
-                    column 1
-                </div>
-                <div class="col">
-                    column 2
-                </div>
-                <div class="col">
-                    column 3
-                </div>
+            <div class="row"></div>
             </div>
         </div>
+
+    <div class="sidebar">
+        This is the sidebar content. You can add links, information, or any other content here.
     </div>
-    <h1>Projects available</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maxime dicta tempora nesciunt eum officia, commodi autem soluta amet aliquam reiciendis nemo ipsam. Tenetur reprehenderit nesciunt unde ducimus ea quidem? 
-        <br>
-        <hr>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio necessitatibus sint ratione expedita sed fuga quia nam cumque atque, optio sequi ex sapiente officiis, facilis numquam explicabo! Fuga, rem animi.</p>
+    <div class="content">
+        <h1>Projects available</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maxime dicta tempora nesciunt eum officia, commodi autem soluta amet aliquam reiciendis nemo ipsam. Tenetur reprehenderit nesciunt unde ducimus ea quidem? 
+            <br>
+            <hr>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio necessitatibus sint ratione expedita sed fuga quia nam cumque atque, optio sequi ex sapiente officiis, facilis numquam explicabo! Fuga, rem animi.</p>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
 
     
 </body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .banner {
+        background-color: lightpink;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .sidebar {
+        width: 300px;
+        height: 450px;
+        background-color: hotpink;
+        padding: 20px;
+        float: right;
+    }
+    .content {
+        width: 600px;
+        height: 450px;
+        background-color: hotpink;
+        padding: 20px;
+        float: left;
+    }
+    .footer {
+        clear: both;
+        background-color: hotpink;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .toplinks {
+        background-color: hotpink;
+        overflow: hidden;
+        height: 50px;
+    
+    }
+    .toplinks a :hover {
+        color: red;
+        background-color: tomato;
+        text-decoration: none;
+    }
+    .contact-form input, .contact-form textarea {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+<div class="toplinks">
+        <a href="index.html">Go back to home page</a>
+        
+</div>
+<div class="banner">
+    <h1>Contact Form</h1>
+</div>
+
+    <div class="sidebar">
+        <h3>Contact Information</h3>
+        <p>Email: contact@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Main St, Anytown, USA</p>
+    </div>
+
+
+            
+<div class="row">
+    <div class="content">
+    <h2>Contact Us</h2>
+
+    <form action="">
+
+        <label for="full_name">Full Name: </label><br>
+        <input type="text" id="full_name" name="full_name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="phone">Phone Number: </label><br>
+        <input type="number" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label for="subject_line">Subject Line: </label><br>
+        <input type="text" id="subject_line" name="subject_line" placeholder="Enter the subject of your message" required><br><br>
+
+        <label for="message">Message: </label><br>
+        <textarea id="message" name="message" placeholder="Enter your message here" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
